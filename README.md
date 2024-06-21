@@ -24,7 +24,7 @@ simplificada.
 
 ## Como Jogar
 
-** - Ao iniciar o jogo, o tabuleiro é exibido vazio.
+** - Ao iniciar o jogo, o tabuleiro é exibido vazio. **
 ** - Os jogadores decidem quem jogará com o símbolo X e quem jogará com o símbolo O.
 ** - Os jogadores alternam os turnos, começando pelo jogador que joga com o símbolo X.
 ** - Em cada turno, o jogador atual escolhe uma célula vazia no tabuleiro para colocar o seu símbolo.
