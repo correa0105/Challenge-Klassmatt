@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Jogo da Velha
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+No século XIX, no Reino Unido, era comum as senhoras se reunirem para jogar noughts and crosses -
+zeros e cruzes, em uma tradução livre - enquanto bordavam e conversavam. Foi assim que o
+passatempo virou “jogo das velhas” e depois simplificado para jogo da velha[1]. Em homenagem a
+esse jogo que até hoje nos leva ao se século retrasado, vamos recriá-lo em uma versão moderna e
+simplificada.
 
-## Available Scripts
+** Acesse para Jogar: [Link]
 
-In the project directory, you can run:
+## Regras do Jogo
 
-### `npm start`
+`1 - Tabuleiro` - O jogo é jogado em um tabuleiro 3x3, onde cada célula pode conter um dos seguintes símbolos: X, O ou estar vazia.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`2 - Jogador` - O jogo é jogado por dois jogadores, representados pelos símbolos X e O.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`3 - Turnos` - Os jogadores alternam os turnos, começando com o jogador que joga com o símbolo X.
 
-### `npm test`
+`4 - Objetivos` - O objetivo de cada jogador é formar uma linha de três de seus próprios símbolos (X ou O) em uma linha horizontal, vertical ou diagonal no tabuleiro.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`5 - Vitória` - Se um jogador conseguir formar uma linha de três de seus próprios símbolos, ele vence o jogo.
 
-### `npm run build`
+`6 - Empate` - Se todas as células do tabuleiro estiverem preenchidas e nenhum jogador tiver formado uma linha de três símbolos, o jogo termina em empate.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como Jogar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+** - Ao iniciar o jogo, o tabuleiro é exibido vazio.
+** - Os jogadores decidem quem jogará com o símbolo X e quem jogará com o símbolo O.
+** - Os jogadores alternam os turnos, começando pelo jogador que joga com o símbolo X.
+** - Em cada turno, o jogador atual escolhe uma célula vazia no tabuleiro para colocar o seu símbolo.
+** - Após cada jogada, o jogo verifica se o jogador atual formou uma linha de três de seus próprios símbolos. Se sim, o jogador é declarado vencedor e o jogo termina.
+** - Se todas as células do tabuleiro estiverem preenchidas e nenhum jogador tiver formado uma linha de três símbolos, o jogo termina em empate.
+** - Após a conclusão do jogo, os jogadores têm a opção de reiniciar o jogo para uma nova partida.
