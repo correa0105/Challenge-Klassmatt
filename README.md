@@ -6,7 +6,7 @@ passatempo virou “jogo das velhas” e depois simplificado para jogo da velha[
 esse jogo que até hoje nos leva ao se século retrasado, vamos recriá-lo em uma versão moderna e
 simplificada.
 
-** Acesse para Jogar: [Link]
+** Acesse para Jogar: [[Jogo da Velha](https://jogodavelhaklassmatt.netlify.app/)]
 
 ## Regras do Jogo
 
